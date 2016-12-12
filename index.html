@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+    <form action="/add" method="post">
+        <ul>
+            <li>
+                <label for="name">ФИО студента: </label>
+                <input id="name" name="name" type="text">
+            </li>
+            <li>
+                <label for="faculty">Факультет: </label>
+                <input id="faculty" name="faculty" type="text">
+            </li>
+            <li>
+                <label for="course">Курс: </label>
+                <input id="course" name="course" type="number" min="1" max="5">
+            </li>
+        </ul>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
